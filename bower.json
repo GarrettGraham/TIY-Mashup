@@ -1,0 +1,20 @@
+{
+  "name": "TIY-Mashup",
+  "version": "0.0.0",
+  "homepage": "https://github.com/GarrettGraham/TIY-Mashup",
+  "authors": [
+    "Garrett Graham <ganderson7197@icloud.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
