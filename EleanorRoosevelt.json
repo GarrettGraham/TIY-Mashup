@@ -18,8 +18,8 @@
 "people"
 ]
 }
-}
-    // 2
+},
+   // 2
 {
 "success": {
 "total": 1
@@ -33,7 +33,7 @@
 "experience"
 ]
 }
-}
+},
     // 3
 {
 "success": {
@@ -51,7 +51,7 @@
 "vocabulary"
 ]
 }
-}
+},
     // 4
 {
 "success": {
@@ -67,7 +67,7 @@
 "timidity"
 ]
 }
-}
+},
     //5
 {
 "success": {
@@ -84,7 +84,7 @@
 "truth"
 ]
 }
-}
+},
     // 6
 {
 "success": {
@@ -99,7 +99,7 @@
 "inferiority"
 ]
 }
-}
+},
     // 7
 {
 "success": {
@@ -114,7 +114,7 @@
 "nature"
 ]
 }
-}
+},
     // 8 
 {
 "success": {
@@ -129,7 +129,7 @@
 "love"
 ]
 }
-}
+},
     // 9
 {
 "success": {
@@ -146,7 +146,7 @@
 "growth"
 ]
 }
-}
+},
     // 10
 {
 "success": {
