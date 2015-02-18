@@ -9,6 +9,7 @@
 
 //use below as an array to be looped through and populate the html with quote data 
 
+//var _ = require('lodash')
 var firstLady = 
 [
     // index: 0
@@ -175,7 +176,28 @@ var firstLady =
 
 ]
 
-function quote(){ 
-    alert ("Check out this quote from" + firstLady[0].contents.author + " " + firstLady[1].contents.quote)
+//console.log(firstLady.contents.quote)
+//
+//function loopy(){
+//for (var i = 0; i < 10; i++) {
+//    console.log(i);
+//}
+//};
+
+var counter = 0
+
+for (var counter = 0; counter < 10; counter++){
+    console.log(firstLady[counter].contents.quote)
 }
-    
+
+//console.log(counter)
+
+
+
+//function quote() 
+
+//function quote(){ 
+//    alert ("Check out this quote from" + firstLady[0].contents.author + " " + firstLady[1].contents.quote)
+//}
+//
+
