@@ -99,3 +99,18 @@
 ]
 }
 }
+
+{
+"success": {
+"total": 1
+},
+"contents": {
+"quote": "Perhaps nature is our best assurance of immortality.",
+"author": "Eleanor Roosevelt",
+"id": "dMyt_SXzSz98CxXlKsgcDgeF",
+"requested_category": null,
+"categories": [
+"nature"
+]
+}
+}
