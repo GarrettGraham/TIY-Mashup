@@ -1,6 +1,7 @@
 //use below as an array to be looped through and populate the html with quote data 
 
 
+// 1
 {
 "success": {
 "total": 1
@@ -19,6 +20,7 @@
 }
 }
 
+// 2
 {
 "success": {
 "total": 1
@@ -34,6 +36,7 @@
 }
 }
 
+// 3
 {
 "success": {
 "total": 1
@@ -52,6 +55,7 @@
 }
 }
 
+// 4
 {
 "success": {
 "total": 1
@@ -68,6 +72,7 @@
 }
 }
 
+//5
 {
 "success": {
 "total": 1
@@ -85,6 +90,7 @@
 }
 }
 
+// 6
 {
 "success": {
 "total": 1
@@ -99,3 +105,70 @@
 ]
 }
 }
+
+// 7
+{
+"success": {
+"total": 1
+},
+"contents": {
+"quote": "Perhaps nature is our best assurance of immortality.",
+"author": "Eleanor Roosevelt",
+"id": "dMyt_SXzSz98CxXlKsgcDgeF",
+"requested_category": null,
+"categories": [
+"nature"
+]
+}
+}
+
+// 8 
+{
+"success": {
+"total": 1
+},
+"contents": {
+"quote": "It takes courage to love, but pain through love is the purifying fire which those who love generously know. We all know people who are so much afraid of pain that they shut themselves up like clams in a shell and, giving out nothing, receive nothing and therefore shrink until life is a mere living death.",
+"author": "Eleanor Roosevelt",
+"id": "X7lrfVv0RhEXX_9xGVRZGQeF",
+"requested_category": null,
+"categories": [
+"love"
+]
+}
+}
+
+// 9
+{
+"success": {
+"total": 1
+},
+"contents": {
+"quote": "Do one thing everyday that scares you.",
+"author": "Eleanor Roosevelt",
+"id": "CLLdacjYfmMxSRKHLv_ulQeF",
+"requested_category": null,
+"categories": [
+"change",
+"courage",
+"growth"
+]
+}
+}
+
+// 10
+{
+"success": {
+"total": 1
+},
+"contents": {
+"quote": "People grow through experience if they meet life honestly and courageously. This is how character is built.",
+"author": "Eleanor Roosevelt",
+"id": "OU4aMVEF1C6vwt3WmN7pVweF",
+"requested_category": null,
+"categories": [
+"character"
+]
+}
+}
+
