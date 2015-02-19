@@ -97,13 +97,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-@media only screen and (max-width: 30em) {
-    /* Style adjustments for viewports that meet the condition */
-
-
 body {
     background-image: url('https://c2.staticflickr.com/4/3100/2645021719_4ff205c265.jpg');
-    background-position: 0 0 0 0;
+    background-position: 0 0;
     background-repeat:no-repeat;
     background-color: transparent;
     background-size:100%
@@ -112,11 +108,13 @@ body {
 
 .quote {
     z-index:auto;
-    padding-right:3em; 
+    padding-top:5em;
+    padding-right:25em; 
     display: block;
+    color:white;
 }
 
-}
+
 
 
 
