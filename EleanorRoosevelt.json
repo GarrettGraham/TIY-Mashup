@@ -1,17 +1,7 @@
 //use below as an array to be looped through and populate the html with quote data 
 
-//var firstLady = require('../TIY-Mashup/EleanorRoosevelt.json')
-
-//var quote = contents.filter(function(item) {
-//   return item.quote = 'Quote' 
-//});
-
-
-//use below as an array to be looped through and populate the html with quote data 
-
-var firstLady = 
 [
-    // index: 0
+    // 1
 {
 "success": {
 "total": 1
@@ -29,7 +19,7 @@ var firstLady =
 ]
 }
 },
-   // index: 1
+   // 2
 {
 "success": {
 "total": 1
@@ -44,7 +34,7 @@ var firstLady =
 ]
 }
 },
-    // index: 2
+    // 3
 {
 "success": {
 "total": 1
@@ -62,7 +52,7 @@ var firstLady =
 ]
 }
 },
-    // index: 3
+    // 4
 {
 "success": {
 "total": 1
@@ -78,7 +68,7 @@ var firstLady =
 ]
 }
 },
-    // index: 4
+    //5
 {
 "success": {
 "total": 1
@@ -95,7 +85,7 @@ var firstLady =
 ]
 }
 },
-    // index: 5
+    // 6
 {
 "success": {
 "total": 1
@@ -110,7 +100,7 @@ var firstLady =
 ]
 }
 },
-    // index: 6
+    // 7
 {
 "success": {
 "total": 1
@@ -125,7 +115,7 @@ var firstLady =
 ]
 }
 },
-    // index: 7
+    // 8 
 {
 "success": {
 "total": 1
@@ -140,7 +130,7 @@ var firstLady =
 ]
 }
 },
-    // index: 8
+    // 9
 {
 "success": {
 "total": 1
@@ -157,7 +147,7 @@ var firstLady =
 ]
 }
 },
-    // index: 9
+    // 10
 {
 "success": {
 "total": 1
@@ -174,8 +164,3 @@ var firstLady =
 }
 
 ]
-
-function quote(){ 
-    alert ("Check out this quote from" + firstLady[0].contents.author + " " + firstLady[1].contents.quote)
-}
-    
