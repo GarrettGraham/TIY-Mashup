@@ -114,10 +114,11 @@ body {
     display: block;
     color:white;
     style:none;
+    font-family: 'Cardo', serif ;
 }
 
 # {
-    
+    text-align: center;
 }
 
 
