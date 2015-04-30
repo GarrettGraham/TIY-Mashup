@@ -2,79 +2,88 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        
-        <!--  bower:css -->
-        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-        <!--  endbower  -->
-        
-        
-    </head>
-    <body>
-       
-<!--    below is where you will use javascript and/or jquery to loop through JSON 
-        and document.write(innerHTNL)??syntax?? use also getElementById... and then
-        create a feature that POPULATES the quotes. style: reference the blueprint codedrop on
-        Tympanus for the image timer 
-            
-        found website TheySaidSo.com which is going to help me a lot for this assignment   --> 
-        
-    <div class="mainContent"> 
-        
-        
-        
-        <div class="quote">
-            <blockquote id="output" class="blockquote-reverse">
-                <footer><cite title="quoteSource">Eleanor Roosevelt</cite></footer>
-                </blockquote>
-        </div>
-            <button id="button">GetQuote</button>
-        
-<!--        the span below is the attribution code for the site They Said So -->
-        
-        <span style="z-index:50;font-size:0.9em;">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--  bower:css -->
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+	<!--  endbower  -->
+
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="quote text-center">
+			<blockquote id="output" class="blockquote-reverse">
+				<footer><cite title="quoteSource" class="citation">Eleanor Roosevelt</cite>
+				</footer>
+			</blockquote>
+		</div>
+		<div class="button">
+		<button id="button" class="btn btn-hollow">Get Quote</button>
+		</div>
+
+		<!--        the span below is the attribution code for the site They Said So -->
+
+		<span style="z-index:50;font-size:0.9em;">
 <!--        <img src="http://theysaidso.com/branding/theysaidso.png" height="20" width="20" alt="theysaidso.com"/>--><a href="http://theysaidso.com" title="Powered by quotes from theysaidso.com" style="color: #9fcc25; margin-left: 4px; vertical-align: middle;">
 <!-- theysaidso.com-->
 </a></span>
-        
-<!--        end quote       -->
-        
-        
-    </div>  
-        
-        
-        <!-- bower:js -->
-        <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-        <!-- endbower -->
-        
-        
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
+		<!--        end quote       -->
+
+
+	</div>
+
+
+	<!-- bower:js -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<!-- endbower -->
+
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+	</script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<script>
+		(function (b, o, i, l, e, r) {
+			b.GoogleAnalyticsObject = l;
+			b[l] || (b[l] =
+				function () {
+					(b[l].q = b[l].q || []).push(arguments)
+				});
+			b[l].l = +new Date;
+			e = o.createElement(i);
+			r = o.getElementsByTagName(i)[0];
+			e.src = '//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e, r)
+		}(window, document, 'script', 'ga'));
+		ga('create', 'UA-XXXXX-X');
+		ga('send', 'pageview');
+	</script>
+</body>
+
 </html>

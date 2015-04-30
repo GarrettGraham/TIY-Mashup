@@ -105,22 +105,41 @@ body {
 	background-position-x: 50%;
 	background-position-y: 50%;
 	background-repeat: no-repeat;
-	
 }
 
 .quote {
+	border: 1px solid;
     z-index:auto;
-    padding-top:5em;
-    padding-right:25em; 
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 30%;
     display: block;
     color:white;
     style:none;
-    font-family: 'Cardo', serif ;
+    font-family: 'Cardo', serif;
+	position: relative;
 }
 
+/* color citation white */
+cite {
+	color:white;
+}
+
+.button{
+	margin-left:5%;
+	margin-top: 10%;
+	background: none;
+/*	text-align: center;*/
+	position: sticky;
+/*	margin-top: 3em;*/
+	
+}
+
+/*
 # {
     text-align: center;
 }
+*/
 
 
 
