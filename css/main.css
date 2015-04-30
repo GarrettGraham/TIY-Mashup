@@ -130,9 +130,9 @@ cite {
 	margin-top: 10%;
 	background: none;
 /*	text-align: center;*/
-	position: sticky;
-/*	margin-top: 3em;*/
+	display:block;
 	
+/*	margin-top: 3em;*/
 }
 
 /*
