@@ -127,11 +127,11 @@ cite {
 }
 
 .button{
-/*	margin-left:5%;*/
+	margin-right:5%;
 	margin-top: 15%;
 	background: none;
 	text-align: center;
-	align-content: center;
+/*	align-content: center;*/
 	display:block;
 	
 }
