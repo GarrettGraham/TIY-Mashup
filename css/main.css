@@ -110,7 +110,7 @@ body {
 .quote {
 /*	border: 1px solid;*/
     z-index:auto;
-	margin-top: 5%;
+	margin-top: 15%;
 	margin-left: 5%;
 	margin-right: 30%;
     display: block;
@@ -128,12 +128,12 @@ cite {
 
 .button{
 /*	margin-left:5%;*/
-	margin-top: 15%;
+	margin-top: 5%;
 	background: none;
 	text-align: center;
+	align-content: center;
 	display:block;
 	
-/*	margin-top: 3em;*/
 }
 
 /*
