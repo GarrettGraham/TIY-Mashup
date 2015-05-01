@@ -128,7 +128,7 @@ cite {
 
 .button{
 /*	margin-left:5%;*/
-	margin-top: 5%;
+	margin-top: 15%;
 	background: none;
 	text-align: center;
 	align-content: center;
@@ -142,7 +142,9 @@ cite {
 }
 */
 
-
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
 
 
 
