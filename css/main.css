@@ -127,7 +127,7 @@ cite {
 }
 
 .button{
-	margin-right:5%;
+	margin-right:20%;
 	margin-top: 15%;
 	background: none;
 	text-align: center;
@@ -136,14 +136,15 @@ cite {
 	
 }
 
-/*
-# {
-    text-align: center;
-}
-*/
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 30em) and (max-width: 48em){
+   
+	.quote {
+		height: 15em;
+	}
+	
+	.button { 
+		margin-top:0;
+	}
 }
 
 
