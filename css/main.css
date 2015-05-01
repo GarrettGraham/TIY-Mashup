@@ -115,22 +115,22 @@ body {
 	margin-right: 30%;
     display: block;
     color:white;
-    style:none;
+/*    style:none;*/
     font-family: 'Cardo', serif;
-	position: relative;
+/*	position: relative;*/
 	height: 25em;
 }
 
-/* color citation white */
+/* color of citation is white */
 cite {
 	color:white;
 }
 
 .button{
-	margin-left:5%;
+/*	margin-left:5%;*/
 	margin-top: 15%;
 	background: none;
-/*	text-align: center;*/
+	text-align: center;
 	display:block;
 	
 /*	margin-top: 3em;*/
@@ -141,12 +141,6 @@ cite {
     text-align: center;
 }
 */
-
-
-
-
-
-
 
 
 
