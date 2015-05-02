@@ -165,33 +165,14 @@ var firstLady = [
 
 var counter = 0
 
-// this js ish should sift the array and each time it finds a quote, it displays that quote into the html blockquote, it should start back at the first index when the last quote is displayed
 
-//for loop with a function that returns the quote else the counter starts back at index[0]
-
-//
-//function quote() {
-//    console.log(firstLady[0].contents.quote)
-//}
-//
-//if (function(quote) {
-//    
-//} 
-//    else {
-//    
-//    });
-//function(key) {
-//    return key.quote
-//}
-
-$('#button').click(function () {
-    $('blockquote#output').html(firstLady[counter].contents.quote)
-    if ( counter === 9 ) {
-        return counter = 0
-    }
-    else {
-    return counter++
-}
+$('#button').click(function() {
+	$('blockquote#output').html(firstLady[counter].contents.quote)
+	if (counter === 9) {
+		return counter = 0
+	} else { 
+		return counter ++
+	}
 });
 
 console.log(counter);
