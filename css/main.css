@@ -143,10 +143,20 @@ cite {
 	}
 	
 	.button { 
-		margin-top:0;
+		margin-top:5%;
 	}
 }
 
+@media only screen and (min-width: 48em) {
+	
+	.quote {
+		margin-top: 5%;
+	}
+	
+	.button {
+		margin-top:5%;
+	} 
+}
 
 
 
