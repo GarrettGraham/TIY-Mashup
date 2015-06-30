@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js">
+<html ng-app="EleanorQuotes">
 <!--<![endif]-->
 
 <head>
@@ -29,10 +29,10 @@
 
 <body>
 
-	<div class="container">
+	<div class="container" ng-controller="QuotesCtrl">
 
 		<div class="quote text-center">
-			<blockquote id="output" class="blockquote-reverse">
+			<blockquote id="output" class="blockquote-reverse" ng-repeat="quote in quotes">{{contents.quote}}
 				<footer><cite title="quoteSource" class="citation">Eleanor Roosevelt</cite>
 				</footer>
 			</blockquote>
