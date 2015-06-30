@@ -182,8 +182,8 @@ app.controller('QuotesCtrl', ['$scope', '$http',
   function($scope, $http) {
     $http.get('js/quotes.json').success(function(data) {
         $scope.quotes = []; //get data from json
-          angular.forEach(data, function(quotese){
-            $scope.quotes.push(quotese.contents.quote);
+          angular.forEach(data, function(quote){
+            $scope.quotes.push(quote.contents.quote);
 
           });
     });
