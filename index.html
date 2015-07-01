@@ -32,8 +32,8 @@
 	<div class="container" ng-controller="QuotesCtrl">
 
 		<div class="quote text-center">
-			<blockquote id="output" class="blockquote-reverse" ng-repeat="quote in quotes track by $index">{{quotes.contents.quote}}
-				<footer><cite title="quoteSource" class="citation">{{contents.author}}</cite>
+			<blockquote id="output" class="blockquote-reverse" ng-repeat="quote in quotes">{{quote.text}}
+				<footer><cite title="quoteSource" class="citation">{{quote.author}}</cite>
 				</footer>
 			</blockquote>
 		</div>
