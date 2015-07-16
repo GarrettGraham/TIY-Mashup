@@ -33,20 +33,23 @@
 
 		<div class="quote text-center">
 			<blockquote id="output" class="blockquote-reverse" ng-repeat="quote in quotes">{{quote.text}}
-				<footer><cite title="quoteSource" class="citation">{{quote.author}}</cite>
+				<footer>
+					<cite title="quoteSource" class="citation">{{quote.author}}</cite>
 				</footer>
 			</blockquote>
 		</div>
-		<div class="button">
+		<!-- <div class="button">
 		<button id="button" class="btn btn-default">Read a Quote from Eleanor</button>
-		</div>
+		</div> -->
 
 		<!--        the span below is the attribution code for the site They Said So -->
 
 		<span style="z-index:50;font-size:0.9em;">
-<!--        <img src="http://theysaidso.com/branding/theysaidso.png" height="20" width="20" alt="theysaidso.com"/>--><a href="http://theysaidso.com" title="Powered by quotes from theysaidso.com" style="color: #9fcc25; margin-left: 4px; vertical-align: middle;">
-<!-- theysaidso.com-->
-</a></span>
+			<!--        <img src="http://theysaidso.com/branding/theysaidso.png" height="20" width="20" alt="theysaidso.com"/>-->
+			<a href="http://theysaidso.com" title="Powered by quotes from theysaidso.com" style="color: #9fcc25; margin-left: 4px; vertical-align: middle;">
+				<!-- theysaidso.com-->
+			</a>
+		</span>
 
 		<!--        end quote       -->
 
@@ -68,22 +71,24 @@
 	<script src="js/main.js"></script>
 
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-	// <script>
-	// 	(function (b, o, i, l, e, r) {
-	// 		b.GoogleAnalyticsObject = l;
-	// 		b[l] || (b[l] =
-	// 			function () {
-	// 				(b[l].q = b[l].q || []).push(arguments)
-	// 			});
-	// 		b[l].l = +new Date;
-	// 		e = o.createElement(i);
-	// 		r = o.getElementsByTagName(i)[0];
-	// 		e.src = '//www.google-analytics.com/analytics.js';
-	// 		r.parentNode.insertBefore(e, r)
-	// 	}(window, document, 'script', 'ga'));
-	// 	ga('create', 'UA-XXXXX-X');
-	// 	ga('send', 'pageview');
-	// </script>
+	//
+	<script>
+		// 	(function (b, o, i, l, e, r) {
+		// 		b.GoogleAnalyticsObject = l;
+		// 		b[l] || (b[l] =
+		// 			function () {
+		// 				(b[l].q = b[l].q || []).push(arguments)
+		// 			});
+		// 		b[l].l = +new Date;
+		// 		e = o.createElement(i);
+		// 		r = o.getElementsByTagName(i)[0];
+		// 		e.src = '//www.google-analytics.com/analytics.js';
+		// 		r.parentNode.insertBefore(e, r)
+		// 	}(window, document, 'script', 'ga'));
+		// 	ga('create', 'UA-XXXXX-X');
+		// 	ga('send', 'pageview');
+		//
+	</script>
 </body>
 
 </html>

@@ -176,20 +176,54 @@
 //
 // console.log(counter);
 
+
+
 var app = angular.module('EleanorQuotes', []);
 
 app.controller('QuotesCtrl', ['$scope', '$http',
   function($scope, $http) {
     $http.get('js/quotes.json').success(function(data) {
-        $scope.quotes = []; //get data from json
-          angular.forEach(data, function(quote){
-            $scope.quotes.push({
-              text: quote.contents.quote,
-              author: quote.contents.author
-            });
+      $scope.quotes = []; //get data from json
+      angular.forEach(data, function(quote) {
+        $scope.quotes.push({
+          text: quote.contents.quote,
+          author: quote.contents.author
+        });
 
-          });
-          console.log($scope.quotes);
+      });
+      console.log($scope.quotes);
     });
   }
 ])
+
+//  Below is practice with scopr and understanding it
+// var app = angular.module('EleanorQuotes', []);
+//
+// app.controller('QuotesCtrl', ['$scope',
+//   function($scope) {
+//     $scope.quotes = [{
+//         "success": {
+//             "total": 1
+//         },
+//         "contents": {
+//             "quote": "People grow through experience if they meet life honestly and courageously. This is how character is built.",
+//             "author": "Eleanor Roosevelt",
+//             "id": "oPmrJij8JxaKuZttCxNBaAeF",
+//             "requested_category": null,
+//             "categories": [
+// "character",
+// "experience",
+// "life",
+// "people"
+// ]
+//         }
+// }];
+//   angular.forEach(data, function(quote){
+//     $scope.quotes.push({
+//       text: quotes.contents.quote,
+//       author: quotes.contents.author
+//     });
+//   });
+//   console.log(scope.quotes);
+//   }
+// ])
