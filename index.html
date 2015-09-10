@@ -9,7 +9,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+	<title>Eleanor Roosevelt Quotes Rotator</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -33,12 +33,16 @@
 	<div class="container" ng-controller="QuotesCtrl">
 
 		<div class="quote text-center">  <!-- bootstrap class text-center -->
-			<flex-slider class="carousel" slide="quote in quotes"
-			<blockquote id="output" class="blockquote-reverse">{{quote.text}}
+			<flex-slider class="carousel" flex-slide="quote in quotes" animation="slide" animation-loop="false" item-width="210" item-margin="5">
+				<li>
+					<p ng-src="{{quote}}"></p>
+			<!-- <blockquote id="output" class="blockquote-reverse" ng-src="{{quote}}">
 				<footer>
-					<cite title="quoteSource" class="citation">{{quote.author}}</cite>
+					<cite title="quoteSource" class="citation" ng-src="{{quote.author}}"</cite>
 				</footer>
-			</blockquote>
+			</blockquote> -->
+		</li>
+		</flex-slider>
 		</div>
 		<!-- <div class="button">
 		<button id="button" class="btn btn-default">Read a Quote from Eleanor</button>
