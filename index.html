@@ -28,7 +28,10 @@
 
 </head>
 
-<body>
+<body ng-controller="ImgCtrl">
+		<flex-slider slide="image in images" animation="slide">
+			<img ng-src="{{image}}" />
+</flex-slider>
 
 	<div class="container" ng-controller="QuotesCtrl">
 

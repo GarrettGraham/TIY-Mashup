@@ -1,6 +1,12 @@
 (function(){
 var app = angular.module('EleanorQuotes', ['angular-flexslider']);
 
+app.controller('ImgCtrl', function($scope){
+  $scope.images = [
+    'https://res.cloudinary.com/theyogime/image/upload/v1440793409/IMG_2253_pqbov8.jpg'
+  ];
+});
+
 app.controller('QuotesCtrl', function($scope){
   $scope.quotes = [
     {
