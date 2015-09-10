@@ -3,25 +3,25 @@ var app = angular.module('EleanorQuotes', ['angular-flexslider']);
 
 app.controller('QuotesCtrl', function($scope){
   $scope.quotes = [
+    // {
+    //   text:"People grow through experience if they meet life honestly and courageously. This is how character is built."
+    // }
     {
-      text:"People grow through experience if they meet life honestly and courageously. This is how character is built."
-    }
-//     {
-//         "success": {
-//             "total": 1
-//         },
-//         "contents": {
-//             "quote": "People grow through experience if they meet life honestly and courageously. This is how character is built.",
-//             "author": "Eleanor Roosevelt",
-//             "id": "oPmrJij8JxaKuZttCxNBaAeF",
-//             "requested_category": null,
-//             "categories": [
-// "character",
-// "experience",
-// "life",
-// "people"
-// ]
-//         }
+        "success": {
+            "total": 1
+        },
+        "contents": {
+            "quote": "People grow through experience if they meet life honestly and courageously. This is how character is built.",
+            "author": "Eleanor Roosevelt",
+            "id": "oPmrJij8JxaKuZttCxNBaAeF",
+            "requested_category": null,
+            "categories": [
+"character",
+"experience",
+"life",
+"people"
+]
+        }
 // },
 //     {
 //         "success": {

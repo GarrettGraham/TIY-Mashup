@@ -35,7 +35,7 @@
 		<div class="quote text-center">  <!-- bootstrap class text-center -->
 			<flex-slider class="carousel" flex-slide="quote in quotes" animation="slide" animation-loop="false" item-width="210" item-margin="5">
 				<li>
-					<p ng-src="{{quote}}"></p>
+					<p ng-src="{{quote.text}}">{{quote.text}}</p>
 			<!-- <blockquote id="output" class="blockquote-reverse" ng-src="{{quote}}">
 				<footer>
 					<cite title="quoteSource" class="citation" ng-src="{{quote.author}}"</cite>
