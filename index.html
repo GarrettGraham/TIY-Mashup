@@ -32,33 +32,15 @@
 
 	<div class="container" ng-controller="QuotesCtrl">
 
-		<div class="quote text-center">  <!-- bootstrap class text-center -->
-			<flex-slider class="carousel" flex-slide="quote in quotes" animation="slide" animation-loop="false" item-width="210" item-margin="5">
+			<flex-slider class="carousel" flex-slide="quote in quotes track by $index" animation="slide" animation="slide" animation-loop="true" item-width="" item-margin="">
 				<li>
-					<p ng-src="{{quote.text}}">{{quote.text}}</p>
-			<!-- <blockquote id="output" class="blockquote-reverse" ng-src="{{quote}}">
+			<blockquote id="output" class="blockquote-reverse" ng-src="{{quote.contents.quote}}">{{quote.contents.quote}}
 				<footer>
-					<cite title="quoteSource" class="citation" ng-src="{{quote.author}}"</cite>
+					<cite title="quoteSource" class="citation" ng-src="{{quote.contents.author}}">{{quote.contents.author}}</cite>
 				</footer>
-			</blockquote> -->
+			</blockquote>
 		</li>
 		</flex-slider>
-		</div>
-		<!-- <div class="button">
-		<button id="button" class="btn btn-default">Read a Quote from Eleanor</button>
-		</div> -->
-
-		<!--        the span below is the attribution code for the site They Said So -->
-
-		<!-- <span style="z-index:50;font-size:0.9em;"> -->
-			<!--        <img src="http://theysaidso.com/branding/theysaidso.png" height="20" width="20" alt="theysaidso.com"/>-->
-			<!-- <a href="http://theysaidso.com" title="Powered by quotes from theysaidso.com" style="color: #9fcc25; margin-left: 4px; vertical-align: middle;"> -->
-				<!-- theysaidso.com-->
-			<!-- </a> -->
-		<!-- </span> -->
-
-		<!--        end quote       -->
-
 	</div>
 
 
@@ -79,7 +61,7 @@
 	<script src="js/main.js"></script>
 
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-	//
+
 	<script>
 		// 	(function (b, o, i, l, e, r) {
 		// 		b.GoogleAnalyticsObject = l;

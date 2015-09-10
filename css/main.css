@@ -107,35 +107,12 @@ body {
 	background-repeat: no-repeat;
 }
 
-.quote {
-/*	border: 1px solid;*/
-    z-index:auto;
-	margin-top: 10%;
-	margin-left: 5%;
-	margin-right: 30%;
-    display: block;
-    color:black;
-/*    style:none;*/
-    font-family: 'Cardo', serif;
-/*	position: relative;*/
-	height: 25em;
-}
 
 /* color of citation is white */
 cite {
-	color:white;
+	color:black;
 }
 
-.button{
-	margin-right:20%;
-	margin-top: 20%;
-	background: none;
-	text-align: center;
-/*	align-content: center;*/
-	display:block;
-	opacity:0.6;
-
-}
 
 @media only screen and (min-width: 30em) and (max-width: 48em){
 
