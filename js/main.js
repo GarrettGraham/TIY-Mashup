@@ -5,7 +5,9 @@ $(function(){
   var body = $('body');
   var backgrounds = [
     'url(https://res.cloudinary.com/theyogime/image/upload/v1440793409/IMG_2253_pqbov8.jpg)',
-    'url(https://res.cloudinary.com/theyogime/image/upload/v1440791164/Savannah_Sunset_q8l4l2.jpg)'
+    'url(https://res.cloudinary.com/theyogime/image/upload/v1440791164/Savannah_Sunset_q8l4l2.jpg)',
+    'url(https://res.cloudinary.com/theyogime/image/upload/v1440791206/IMG_3493_ye8ppt.jpg)',
+    'url(https://res.cloudinary.com/theyogime/image/upload/v1440793134/IMG_2400_vrn8u5.jpg)'
   ];
   var current = 0;
 
