@@ -31,8 +31,9 @@
 
 	<div class="container" ng-controller="QuotesCtrl">
 
-		<div class="quote text-center">
-			<blockquote id="output" class="blockquote-reverse" ng-repeat="quote in quotes">{{quote.text}}
+		<div class="quote text-center">  <!-- bootstrap class text-center -->
+			<flex-slider class="carousel" slide="quote in quotes"
+			<blockquote id="output" class="blockquote-reverse">{{quote.text}}
 				<footer>
 					<cite title="quoteSource" class="citation">{{quote.author}}</cite>
 				</footer>
