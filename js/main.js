@@ -1,6 +1,25 @@
 (function(){
 var app = angular.module('EleanorQuotes', ['angular-flexslider']);
 
+$(function(){
+  var body = $('body');
+  var backgrounds = [
+    'url(https://res.cloudinary.com/theyogime/image/upload/v1440793409/IMG_2253_pqbov8.jpg)',
+    'url(https://res.cloudinary.com/theyogime/image/upload/v1440791164/Savannah_Sunset_q8l4l2.jpg)'
+  ];
+  var current = 0;
+
+  function nextBackground() {
+    body.css(
+      'background-image',
+      backgrounds[current = ++current % backgrounds.length]
+    );
+    setTimeout(nextBackground, 5000);
+  }
+    setTimeout(nextBackground, 5000);
+    body.css('background-image', backgrounds[0]);
+});
+
 app.controller('QuotesCtrl', function($scope){
   $scope.quotes = [
     {
