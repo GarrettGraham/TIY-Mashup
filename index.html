@@ -28,11 +28,7 @@
 
 </head>
 
-<body ng-controller="ImgCtrl">
-		<flex-slider slide="image in images" animation="slide">
-			<img ng-src="{{image}}" />
-</flex-slider>
-
+<body>
 	<div class="container" ng-controller="QuotesCtrl">
 
 			<flex-slider class="carousel" flex-slide="quote in quotes track by $index" animation="fade" animation-loop="true" slideshowSpeed="7000">
