@@ -32,7 +32,7 @@
 
 	<div class="container" ng-controller="QuotesCtrl">
 
-			<flex-slider class="carousel" flex-slide="quote in quotes track by $index" animation="slide" animation="slide" animation-loop="true" item-width="" item-margin="">
+			<flex-slider class="carousel" flex-slide="quote in quotes track by $index" animation="fade" animation-loop="true" slideshowSpeed="7000">
 				<li>
 			<blockquote id="output" class="blockquote-reverse" ng-src="{{quote.contents.quote}}">{{quote.contents.quote}}
 				<footer>

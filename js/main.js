@@ -3,9 +3,6 @@ var app = angular.module('EleanorQuotes', ['angular-flexslider']);
 
 app.controller('QuotesCtrl', function($scope){
   $scope.quotes = [
-    // {
-    //   text:"People grow through experience if they meet life honestly and courageously. This is how character is built."
-    // }
     {
         "success": {
             "total": 1
@@ -75,7 +72,7 @@ app.controller('QuotesCtrl', function($scope){
             "total": 1
         },
         "contents": {
-            "quote": "I think if the people of this country can be reached with the truth, their judgment will be in favor of the many, as against the privileged few",
+            "quote": "I think if the people of this country can be reached with the truth, their judgment will be in favor of the many, as against the privileged few.",
             "author": "Eleanor Roosevelt",
             "id": "GZcU4A5YTNFVc6Cna19JGweF",
             "requested_category": null,
@@ -143,21 +140,7 @@ app.controller('QuotesCtrl', function($scope){
 "growth"
 ]
         }
-},
-    {
-        "success": {
-            "total": 1
-        },
-        "contents": {
-            "quote": "People grow through experience if they meet life honestly and courageously. This is how character is built.",
-            "author": "Eleanor Roosevelt",
-            "id": "OU4aMVEF1C6vwt3WmN7pVweF",
-            "requested_category": null,
-            "categories": [
-"character"
-]
-        }
-      }
+}
   ];
   console.log($scope.quotes);
 
