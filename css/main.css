@@ -107,6 +107,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+.container {
+  position: absolute;
+  top: 5em;
+}
 
 /* color of citation is white */
 cite {
