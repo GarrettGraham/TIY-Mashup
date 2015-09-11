@@ -110,6 +110,7 @@ body {
 .container {
   position: absolute;
   top: 5em;
+  opacity: 0.7;
 }
 
 /* color of citation is white */
